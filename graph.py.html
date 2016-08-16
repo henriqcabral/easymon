@@ -1,0 +1,20 @@
+<html><head>
+<title>graph.py</title>
+<meta name="Generator" content="htmlizer/[twisted, version 15.5.0]" />
+<link rel="alternate" href="graph.py" type="text/x-python" />
+
+</head>
+<body>
+<pre><span class="py-src-keyword">import</span> <span class="py-src-variable">plotly</span>
+<span class="py-src-keyword">from</span> <span class="py-src-variable">plotly</span>.<span class="py-src-variable">graph_objs</span> <span class="py-src-keyword">import</span> <span class="py-src-variable">Scatter</span>, <span class="py-src-variable">Layout</span>
+
+<span class="py-src-variable">plotly</span>.<span class="py-src-variable">offline</span>.<span class="py-src-variable">plot</span>({
+<span class="py-src-string">"data"</span>: [
+    <span class="py-src-variable">Scatter</span>(<span class="py-src-variable">x</span>=[<span class="py-src-number">1</span>, <span class="py-src-number">2</span>, <span class="py-src-number">3</span>, <span class="py-src-number">4</span>], <span class="py-src-variable">y</span>=[<span class="py-src-number">4</span>, <span class="py-src-number">1</span>, <span class="py-src-number">3</span>, <span class="py-src-number">7</span>])
+],
+<span class="py-src-string">"layout"</span>: <span class="py-src-variable">Layout</span>(
+    <span class="py-src-variable">title</span>=<span class="py-src-string">"hello world"</span>
+)
+})
+</pre>
+</body>
