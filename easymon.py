@@ -5,7 +5,7 @@ import nmon_parser as nm
 
 
 def test():
-    print("Gosto do GIT")
+    print("Gosto do GIT bonitao")
   
 def main():
     ssh
