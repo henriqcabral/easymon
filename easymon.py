@@ -4,6 +4,8 @@ import graph
 import nmon_parser as nm
 
 
+def test():
+    print("Gosto do GIT")
   
 def main():
     ssh
