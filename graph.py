@@ -14,3 +14,6 @@ class graph(object):
             title="hello world"
         )
         })
+    def olha():
+        print("Olha eu ai")
+
